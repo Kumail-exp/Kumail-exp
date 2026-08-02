@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,cpp,java,bash,git,linux,vscode"/><br><br>
+<img src="https://skillicons.dev/icons?i=python,java,bash,git,linux,vscode"/><br><br>
 
 ---
 

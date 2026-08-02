@@ -1,0 +1,85 @@
+<svg width="900" height="360" viewBox="0 0 900 200"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050b05"/>
+      <stop offset="100%" stop-color="#0b1a0b"/>
+    </linearGradient>
+
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff66"/>
+      <stop offset="100%" stop-color="#66ff99"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="360" rx="14" fill="url(#bg)"/>
+
+  <!-- Terminal header -->
+  <rect width="900" height="38" rx="14" fill="#0f2b14"/>
+  <rect y="24" width="900" height="14" fill="#0f2b14"/>
+
+  <!-- Window buttons -->
+  <circle cx="25" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="45" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="65" cy="19" r="6" fill="#27c93f"/>
+
+  <!-- Prompt -->
+  <text
+      x="95"
+      y="24"
+      fill="#7dff9b"
+      font-family="monospace"
+      font-size="16">
+      kumail@kumail-NAVI: ~$
+  </text>
+
+  <!-- Command -->
+  <text
+      x="30"
+      y="70"
+      fill="url(#title)"
+      font-family="monospace"
+      font-size="24"
+      filter="url(#glow)">
+      $ cat about.txt
+  </text>
+
+  <!-- Body -->
+  <text
+      x="35"
+      y="110"
+      fill="#d7ffd7"
+      font-family="monospace"
+      font-size="18">
+
+      <tspan x="35" dy="0">I am an idiot trying to figure things out.</tspan>
+
+      <tspan x="35" dy="30">Maybe 17 years old.</tspan>
+
+      <tspan x="35" dy="30">Trying to understand how things work.</tspan>
+
+      <tspan x="35" dy="42" fill="#66ff99">Hail Lord Terry.</tspan>
+
+  </text>
+
+  <!-- Cursor -->
+  <rect x="210" y="195" width="10" height="20" fill="#00ff66">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1s"
+             repeatCount="indefinite"/>
+  </rect>
+
+</svg>

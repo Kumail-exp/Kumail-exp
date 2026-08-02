@@ -5,9 +5,9 @@
 
     <style><![CDATA[
       @font-face {
-        font-family: "CustomFont";
-        src: url("assets/font.ttf") format("truetype");
-      }
+    font-family: "CustomFont";
+    src: url("https://github.com/kumail-exp/kumail-exp/raw/main/assets/font.ttf") format("truetype");
+}
 
       .font {
         font-family: "CustomFont", monospace;

@@ -1,16 +1,16 @@
-<svg width="900" height="360" viewBox="0 0 900 200"
+<svg width="900" height="360" viewBox="0 0 900 360"
      xmlns="http://www.w3.org/2000/svg">
 
   <defs>
 
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#050b05"/>
-      <stop offset="100%" stop-color="#0b1a0b"/>
+      <stop offset="0%" stop-color="#031711"/>
+      <stop offset="100%" stop-color="#031711"/>
     </linearGradient>
 
     <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00ff66"/>
-      <stop offset="100%" stop-color="#66ff99"/>
+      <stop offset="0%" stop-color="#024e30"/>
+      <stop offset="100%" stop-color="#029767"/>
     </linearGradient>
 
     <filter id="glow">
@@ -53,14 +53,14 @@
       font-family="monospace"
       font-size="24"
       filter="url(#glow)">
-      $ cat about.txt
+      $ cat AboutMe.txt
   </text>
 
   <!-- Body -->
   <text
       x="35"
       y="110"
-      fill="#d7ffd7"
+      fill="#1e9767"
       font-family="monospace"
       font-size="18">
 
@@ -68,14 +68,16 @@
 
       <tspan x="35" dy="30">Maybe 17 years old.</tspan>
 
-      <tspan x="35" dy="30">Trying to understand how things work.</tspan>
+      <tspan x="35" dy="30">Not studying CS for any jobs.</tspan>
+      <tspan x="35" dy="30">Infact not doing any job for earthly money.</tspan>
+      <tspan x="35" dy="30">Open to contribution for humanity and my happiness.</tspan>
 
-      <tspan x="35" dy="42" fill="#66ff99">Hail Lord Terry.</tspan>
+      <tspan x="35" dy="42" fill="#79eb9f">Hail Lord Terry.</tspan>
 
   </text>
 
   <!-- Cursor -->
-  <rect x="210" y="195" width="10" height="20" fill="#00ff66">
+  <rect x="210" y="255" width="10" height="20" fill="#00ff66">
     <animate attributeName="opacity"
              values="1;0;1"
              dur="1s"
